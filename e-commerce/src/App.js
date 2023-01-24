@@ -5,7 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-//pages
+//pages - 
 import Home from './pages/home';
 import Product from './pages/product';
 
