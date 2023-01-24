@@ -30,6 +30,7 @@ const Header = () => {
                         <button className="btn">Buy</button>
                     </a>
                 </div>
+                
             </div>
     </>)
 }
