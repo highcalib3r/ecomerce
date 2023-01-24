@@ -1,0 +1,381 @@
+body{
+    background-color: #ffff;
+    margin: 0;
+    font-family: 'SF Compact Display', sans-serif;
+}
+
+
+.text{
+    display: flex;
+    padding-right:350px;
+    padding-left: 350px;
+    background-color:#333333 ;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    height: 35px;
+    border-width: 0px;
+}
+.twodiv{
+    display: flex;
+    margin:px;
+    font-size: 12px;
+    margin: 0px;
+    padding-left: 350px;
+
+}
+.specs{
+    display: flex;
+    justify-content: space-between;
+   background-color: white;
+   height: 60px;
+   color: grey;
+   cursor: pointer;
+   
+}
+.sideiphone14{
+    align-items: center;
+    display: flex;
+   gap: 18px;
+    padding-right:350px;
+    font-size: 15px;
+}
+.btn{
+    height: 25px;
+    border-radius: 20px;
+    border-width: 0px;
+    background-color: #0071e3;
+    color: #ffff;
+    width: 50px;
+    cursor: pointer;
+    
+}
+.btn:hover {height: 30px;
+width: 55px;
+background-color:#004992 ; }
+.btnstyle{
+    padding: 10px;
+    margin-right: 20px;
+}
+.offer{
+    background-image: linear-gradient(to right,#39165f, #743c75);
+    display: flex;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    align-items: center;
+    flex-direction: column;
+}
+.patext{
+    background-image: linear-gradient(to right,green,blue,pink,red);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 30px;
+   
+
+}
+.phoneadd{
+    background-color: #ffff;
+    height: 110px;
+    padding-left: 0;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+    
+}
+  .wonder{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+.wonder>h1{
+    margin: 0;
+} 
+.patext{
+    display: flex;
+justify-content: center;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+}
+.iphone14{
+    color: black;
+}
+.offertext{
+    margin: 0;
+    font-weight: 50;
+}
+.btns{
+   cursor: pointer;
+    border-width: 0;
+    color: rgb(138, 138, 138);
+    background-color: #333333;
+    
+
+}
+h1.patext{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-size: 3rem;
+
+}
+.btns:hover {color: rgb(197, 197, 197); }
+.applelogo:hover {color: white; }
+.info{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-right: 120px;
+
+}
+.firstbtn{
+height: 35px;
+border-width:0 ;
+border-radius: 20px;
+padding: 10px;
+font-size: 15px;
+padding-left: 25px;
+padding-right: 25px;
+}
+.secondbutton{
+    height: 35px;
+border-width:0;
+border-radius: 20px;
+width: 250px;
+font-size: 15px;
+padding-left: 25px;
+padding-right: 25px;
+
+}
+.info{
+    /* padding-left: 100px;
+    padding-right:100px ; */
+}
+.new{
+    color: #d58758;
+    font-size: 25px;
+}
+.biphone{
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+.leftside>p{
+    margin: 0;
+}
+.leftside>h1{
+    margin: 0;
+}
+.leftside{
+    padding: 50px;
+    padding-left:150px;
+}
+.photoofphone{
+    height: 560px;
+    width: 940px;
+}
+.buyarea{
+    display: flex;
+    justify-content: space-between;
+    gap:5rem;
+    padding: 55px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.fourteenbuy{
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #ffff;
+    border-radius: 13px;
+    border: 1px solid #e0e0e3;
+    /* border-color: #e0e0e3; */
+    height: 100px;
+    cursor: pointer;
+}
+.fourteenbuy:hover {border-color: rgb(169 167 167); }
+.fourteenplusbuy:hover {border-color: black; }
+.sizeandname{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom:10px;
+    text-align: left;
+    
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    padding-top: 16px;
+    text-align: right;
+}
+.sizeandname>h1{
+    margin: 0;
+    
+
+}
+.sizeandname>p{
+    margin: 0;
+    
+}
+.fourteenplusbuy{
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #ffff;
+    border-radius: 13px;
+    border-width: 0.5px;
+    border-color: #e0e0e3;
+    height: 100px;
+    cursor: pointer;
+    text-align: left;
+}
+.sizeandnameplus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+   
+}
+.priceplus{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    padding-top: 16px;
+    text-align: right;
+}
+.sizeandnameplus>h1{
+    margin: 0;
+   
+}
+.sizeandnameplus>p{
+    margin: 0px;
+    
+}
+.version2{
+    gap: 15px;
+    /* padding-right: 155px; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.version2>p{
+    font-size: 28px;
+}
+.choose{
+    width: 420px;
+    display: flex;
+    /* justify-content: space-between;
+     */
+    align-items: center;
+     padding: 15px;
+    background-color: #ffff;
+    border-radius: 13px;
+    border-width: 0.5px;
+    border-color: #e0e0e3;
+    /* height: 100px; */
+    cursor: pointer;
+    font-size: 15px;
+}
+.modelchoose>p2{
+    margin: 0;
+    font-weight: 100;
+}
+.modelchoose>p{
+    margin: 0;
+}
+.choose{
+    background-color: #f5f5f7;
+    border-width:0px;
+    text-align: left;
+    
+    
+}
+.givegap{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    padding-left: 160px;
+}
+.colorpicker{
+    display: flex;
+   
+}
+.customrbtn{
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left:10px ;
+}
+.customrbtn1{
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left:0px ;
+}
+
+.customrbt .checkmark{
+width: 2px;
+height: 2px;
+background-color: black;
+display: inline-block;
+display: none;
+}
+.customrbtn input{
+    display: none;
+}
+.customrbtn input:checked + .checkmark{
+    display: inline-block;
+}
+.colorpick{
+    height: 32px ;
+    width: 32px;
+    border-radius: 35px;
+    cursor: pointer;    
+    box-shadow: 0 8px 15px -6px black;
+    position: relative;
+}
+.colorpicker{
+    gap: 15px;
+    margin-top: 15px;
+    position: absolute;
+    display: flex;
+}
+
+.colorpick:hover{
+
+    border: lightgray;
+    width: 36px;
+    height: 36px;
+    
+}
+.absolute{
+    display: flex;
+    flex-direction: column;
+}
